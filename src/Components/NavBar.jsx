@@ -7,13 +7,17 @@ const Container = styled.div`
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    height : 70px;
     border-bottom: 2px solid black;
 `
 const Left = styled.div`
-    margin-left : 1em;
+    box-sizing: border-box;
+    padding : 0;
+    margin: 0;
+    margin-left : 2em;
 `
 const Right = styled.div`
-    margin-right : 1em;
+    margin-right : 2em;
     display: flex;
     align-items : center;
     justify-content: space-between;
@@ -30,9 +34,7 @@ const SignIN = styled.p`
 `
 
 const Title = styled.p`
-    padding : 0;
-    marign: 0;
-    font-size: 1.2rem;
+    font-size: 2rem;
     font-weight: bolder;
 `
 function NavBar() {

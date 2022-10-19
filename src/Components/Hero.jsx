@@ -6,11 +6,10 @@ const Container = styled.div`
     height : 88vh;
     display: flex;
     align-items: center;
-    width: 100%; 
+    width:  100%;
     justify-content: space-between;
 `
-const ImageContainer = styled.div`
-    
+const ImageContainer = styled.div` 
     width: 45%; 
 `
 const Image = styled.img`
@@ -19,7 +18,7 @@ const Image = styled.img`
     object-fit: cover
 `
 const DescContainer = styled.div`
-    width: 45%; 
+    width: 50%; 
 `
 const Container1 = styled(Container)`
     flex-direction : column;
