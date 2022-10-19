@@ -1,5 +1,6 @@
 import React from 'react'
 import AdvertiseBar from '../../Components/AdvertiseBar'
+import Footer from '../../Components/Footer'
 import Hero from '../../Components/Hero'
 import NavBar from '../../Components/NavBar'
 import NewsLetter from '../../Components/NewsLetter'
@@ -13,6 +14,7 @@ function HomePage() {
         <Hero/>
         <Products/>
         <NewsLetter/>
+        <Footer/>
     </div>
   )
 }

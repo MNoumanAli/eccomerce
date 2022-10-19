@@ -1,5 +1,4 @@
 import React from 'react'
-import main from "../Assets/pictures/main-pic.jpg"
 import pro1 from "../Assets/pictures/pro1.jpg"
 import pro2 from "../Assets/pictures/pro2.jpg"
 import pro3 from "../Assets/pictures/pro3.jpg"
