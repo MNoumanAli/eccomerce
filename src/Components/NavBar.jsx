@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import styled from "styled-components"
 
 const Container = styled.div`
@@ -49,10 +50,10 @@ function NavBar() {
 
         <Right>
             <Registor>
-                Registor
+               <Link to='/signup'> Registor</Link>
             </Registor>
             <SignIN>
-                Sign IN
+               <Link to = '/login'>Sign IN</Link> 
             </SignIN>
         </Right>
     </Container>
